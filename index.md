@@ -60,7 +60,7 @@ I chose to not use the factorial function and only briefly looked at the code wh
 
 05-15-2019
 
-#EX 3/100
+# EX 3/100
 
 ```markdown
 
