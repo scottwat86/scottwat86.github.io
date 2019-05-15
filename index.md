@@ -7,6 +7,7 @@ Thanks to Jeffrey Hu for the resource:
 
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 
+05-14-2019
 
 # Python Exercise 1 / 100
 
@@ -25,6 +26,13 @@ for i in range(2000, 3201):
 print(s)
     
 ```
+
+# Python Exercise  / 100
+
+```markdown
+
+'''
+
 
 Just found a really great resource for self-studying. Bunches of thanks to Jake VanderPlas for all the hard work compiling these resources.
 https://jakevdp.github.io/PythonDataScienceHandbook/
