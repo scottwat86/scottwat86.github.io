@@ -58,7 +58,7 @@ print(",".join(f))
 I chose to not use the factorial function and only briefly looked at the code when I found it. The tutorial I'm following must be using Python 2 as their solution code won't run on Jupitor and I gave up debugging. It returns the factorial but not a single line comma delimited sequence per the instructions.
 
 
-05-15-2019
+__05-15-2019__
 
 # EX 3/100
 
