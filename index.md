@@ -53,12 +53,14 @@ else:
     
     
 print(",".join(f)) 
-'''
+```
 
 I chose to not use the factorial function and only briefly looked at the code when I found it. The tutorial I'm following must be using Python 2 as their solution code won't run on Jupitor and I gave up debugging. It returns the factorial but not a single line comma delimited sequence per the instructions.
 
+
 05-15-2019
-'''markdown
+
+```markdown
 #EX 3/100
 #With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between #1 and n (both included). and then the program should print the dictionary.
 #Suppose the following input is supplied to the program: 8       Then, the output should be:
@@ -78,4 +80,4 @@ for i in range(integer):
 
 #prints    
 print(dict)
-'''
+```
