@@ -3,8 +3,9 @@
 # BIO
 Hello world! My name is Scott and I grew up in California and Washington. I graduated in 2010 from University of Washington with a BS in Engineering. Although I had several experiences with technology in my youth, from building my first computer at age 10, to experimenting with Red Hat Linux command line, I never went pro. In my mid-career as a project manager I've decided to make the leap move into technology. This site is dedicated to my data science and programming journey. Lets learn some Python 3!
 
-Thanks to Jeffrey Hu for the resource:
+# Python Exercises
 
+Thanks to Jeffrey Hu for the resource:
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 
 __05-14-2019__
