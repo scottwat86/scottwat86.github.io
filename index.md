@@ -3,7 +3,8 @@
 Hello world! Lets learn some Python 3!
 
 
-Thanks to Jeffrey Hu for the resource
+Thanks to Jeffrey Hu for the resource:
+
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 
 
