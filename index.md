@@ -3,6 +3,14 @@
 # BIO
 Hello world! My name is Scott and I grew up in California and Washington. I graduated in 2010 from University of Washington with a BS in Engineering. Although I had several experiences with technology in my youth, from building my first computer at age 10, to experimenting with Red Hat Linux command line, I never went pro. In my mid-career as a project manager I've decided to make the leap move into technology. This site is dedicated to my data science and programming journey. Lets learn some Python 3!
 
+# Experience
+Red Hat Linux - 1 year (self taught)
+Unix/Linux System Admin - 3 month (CEU @ UW)
+Javascript - 3 month (self taught)
+Java - 3 month (TCC college course)
+MATLAB - 6 months (college course in FEM modeling of structual elements)
+
+
 "A journey of a thousand miles begins with a single step."  -Laozi
 
 
