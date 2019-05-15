@@ -27,12 +27,32 @@ print(s)
     
 ```
 
-# Python Exercise  / 100
+# Python Exercise 2 / 100
 
 ```markdown
+#EX 2/100
+#Question:
+#Write a program which can compute the factorial of a given numbers.
+#The results should be printed in a comma-separated sequence on a single line.
+#Suppose the following input is supplied to the program:
+# !8 -> 40320
 
+n = 0
+factorial = 1
+f = []
+
+n = input("Enter a number to apply the factorial \n")
+n = int(n)
+
+if n == 0:
+    f = ['1']
+else:    
+    for i in range(1,n+1):
+        factorial = factorial*i
+        f.append(str(factorial))
+    
+    
+print(",".join(f)) 
 '''
 
-
-Just found a really great resource for self-studying. Bunches of thanks to Jake VanderPlas for all the hard work compiling these resources.
-https://jakevdp.github.io/PythonDataScienceHandbook/
+I chose to not use the factorial function and only briefly looked at the code when I found it. The tutorial I'm following must be using Python 2 as their solution code won't run on Jupitor and I gave up debugging. It returns the factorial but not a single line comma delimited sequence per the instructions.
