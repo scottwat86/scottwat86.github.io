@@ -133,3 +133,28 @@ string = string_output()
 text = string.getString()
 input_string.printString(text)
 ```
+
+__05-16-2019__
+
+# Python Cookbook 1.3
+
+``` markdown
+'''
+Problem: You want to keep a limited history of the last few items seen during iteration or during some other kind of processing.
+'''
+import random
+
+n = input("Enter the number of iterations: \n")
+n = int(n)
+
+running_list = []
+
+for i in range(n):
+    running_list.append(random.randint(0,1000))
+
+*_, t1, t2, t3 = running_list
+
+list_3 = [t1,t2,t3]
+print(running_list)
+print(list_3)
+```
