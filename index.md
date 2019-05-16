@@ -76,11 +76,10 @@ __05-15-2019__
 #Suppose the following input is supplied to the program: 8       Then, the output should be:
 #{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 
-#Defines int var and a dictionary to hold elements    
-integer = 0
+#Defines a dictionary to hold elements    
 dict = {}
 
-#User input for int var and converts to type(int)
+#User input saved to integer and then converted from string to type(int)
 integer = input("Enter a integer: \n")
 integer = int(integer)
 
@@ -96,18 +95,43 @@ print(dict)
 # EX 4/100
 
 ``` markdown
-#Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
-#Suppose the following input is supplied to the program:
+""" Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number. #Suppose the following input is supplied to the program:    34,67,55,33,12,98     Then, the output should be:
+['34', '67', '55', '33', '12', '98']
+('34', '67', '55', '33', '12', '98')
+"""
 
-t = []
-l = ()
-string = ""
 
+#Creates string variable and saves input
 string = input("Enter a list of number seperated by commas with no spaces \n")
 
+#Splits string by comma delimination into list and then creates a tuple
 l = string.split(',')
 t = tuple(l)
 
 print(t)
 print(l)
+```
+
+# EX 5/100pyth
+
+``` markdown
+""" Define a class which has at least two methods: getString: to get a string from console input printString: to print the string in upper case. Also please include simple test function to test the class methods. """
+
+#defines the class 
+class string_output :
+    
+#defines the methods
+
+    def getString(self):
+        input_string = input("Enter a string: \n")
+        return input_string
+
+    def printString(self, s):
+        print(s.upper())
+    
+#Creates object input_string of class string_output
+string = string_output()
+
+text = string.getString()
+input_string.printString(text)
 ```
