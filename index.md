@@ -159,12 +159,21 @@ print(running_list)
 print(list_3)
 ```
 
+
 __05-17-2019__
 Found a new python 3 course that is pretty thorough and well written. It also has great tips for existing programmers making the transition to python.
 
 https://www.python-course.eu/python3_history_and_philosophy.php
 
-Read to to Operators sections. I'll be reading more along with the more advanced Python Cookbook.
+I'll be reading more along with the more advanced Python Cookbook. Complete:
+
+* The Origins of Python
+* Starting with Python: The Interactive Shell
+* Executing a Script
+* Indentation
+* Data Types and Variables
+* Operators
+
 
 __05-19-2019__
 # EX 6/100
