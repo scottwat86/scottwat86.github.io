@@ -37,8 +37,8 @@ x = 1 if condition else 0
 
 ```
 
-```markdown
 __(2) readability of large numbers__
+```markdown
 x = 100_000_000  #instead of x = 100000000
 ```
 
