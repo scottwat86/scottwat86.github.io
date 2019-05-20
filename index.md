@@ -27,18 +27,42 @@ __05-20-2019__
 10 Python tips and tricks
 https://www.youtube.com/watch?v=C-gEQdGVXbk&t=814s
 
-__RW__
+# RW
 
-#readability of large numbers
+__(1) Assigning value with ternary conditional
+``` markdown
+condition = True
+
+x = 1 if condition else 0
+
+```
+
+__(2) readability of large numbers
 x = 100_000_000  #instead of x = 100000000
 
-Accesing index and value in list
+__(3) Accesing index and value in list
 ``` markdown
 for i, item in enumerate(L)  #instead of creating
 	L[i] = result
 ```
 
-Interrelated list unpacking
+__(4) Context Manager (eg openning/closing files/databases -> managing resources)
+``` markdown
+with open('test.txt', 'r') as f:
+	file_contents = f.read()
+print(file_contents)	
+```
+
+__(5) Enumerate() -> returns index and value
+```markdown
+names = ['Corey', 'Scott,' 'Brian']
+
+for index, name in enumerate(names):
+	print(index,name)
+
+```
+
+__(6) Interrelated list unpacking ->  Zip()
 ``` markdown
 names = ['Peter Parker']   #stops on the shortest list
 heroes = ['Spiderman']   
