@@ -19,52 +19,161 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 Thanks to Jeffrey Hu for the resource:
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 
-__05-14-2019__
 
-# Python Exercise 1 / 100
+----------------------------------
 
-```markdown
-#Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
-#between 2000 and 3200 (both included).
-#The numbers obtained should be printed in a comma-separated sequence on a single line.
+__05-20-2019__
 
-s = []
+10 Python tips and tricks
+https://www.youtube.com/watch?v=C-gEQdGVXbk&t=814s
 
-for i in range(2000, 3201):
-    if i%7 == 0 and i%5 != 0:
-        s.append(i)
+__RW__
+
+#readability of large numbers
+x = 100_000_000  #instead of x = 100000000
+
+#Accesing index and value in list
+for i, item in enumerate(L)  #instead of creating
+	L[i] = result
+
+#interrelated list unpacking
+names = ['Peter Parker']   #stops on the shortest list
+heroes = ['Spiderman']   
+universes = ['Marvel']  
+
+#zip creates a single tuple of 3 strings
+for name, hero, universe in zip(names, heroes, universes)  
+
+
+	print(f'{name} is actually {hero} from {universe}'
+
+"Peter Parker is actually Spiderman from Marvel"
+
+#unpacking variable length and throw away data list/tuples
+a, _, *c, d = [1,2,3,4,5,]
+
+# '_' throws away 2
+
+print(c) # c = 3,4 
+
+#Adding/retrieving attributes dynamically (value is variable)
+
+class Person():
+	pass
+
+person = Person()
+first_key = 'first'
+first_val = 'Corey'
+
+__05-19-2019__
+# EX 6/100
+
+``` markdown
+
+'''
+Question: Write a program that calculates and prints the value according to the given formula:
+
+Q = Square root of [(2 * C * D)/H] 
+
+Following are the fixed values of C and H:
+C is 50. H is 30. D is the variable whose values should be input to your program in a comma-separated sequence.
+EX 100,150,180  -> Output:   18,22,24'''
+
+import math
+
+C = 50 
+H = 30
+result = []
+
+# Gets a series of numbers from user
+print("\n---------------------------\n" +  "Q = SQRT[(2 * C * D)/H]\n" + "C =" + str(C) + "\n" + "H =" + str(H) + "\n---------------------------\n")
+
+# 1sr reads string input
+# 2nd splits the string input by ","  
+# 3rd maps string to int, saves to list 
+values = map(int, input("Enter numbers seperated by commas:\nD = ").split(","))
+
+# different way to map NOT USED
+# values =[x for x in input("Enter a Value").split(',')]
+
+# Calculations
+for D in values:
+    result.append(math.sqrt(2*C*D/H))    
     
-print(s)
-    
+#prints answer after converting to str
+print('Q = ' + str(result) + "\n\n The End\n")
 ```
 
-# Python Exercise 2 / 100
 
-```markdown
-#Write a program which can compute the factorial of a given numbers.
-#The results should be printed in a comma-separated sequence on a single line.
-#Suppose the following input is supplied to the program:
-# !8 -> 40320
+# EX 7 /100
 
-n = 0
-factorial = 1
-f = []
+``` markdown
+'''
+'''
+Question: Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i*j. Note: i=0,1.., X-1; j=0,1,¡­Y-1.
 
-n = input("Enter a number to apply the factorial \n")
+EX:  Inputs: 3,5 -> Output: [0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
+'''
+
+# User input for row and columns of array
+row_N, col_N = map(int, input("Enter number of rows and columns seperated by comma: ").split(','))
+
+#Produces empty array rows=x col=y
+array = [[0 for col in range(col_N)]for row in range(row_N)]
+
+for row in range(row_N):
+  for col in range(col_N): 
+    array[row][col] = row*col 
+
+print(array) 
+'''
+
+```
+
+__EU Tutorial__
+* Sequential Data Types: Lists and Strings
+
+
+__05-17-2019__
+Found a new python 3 course that is pretty thorough and well written. It also has great tips for existing programmers making the transition to python.
+
+https://www.python-course.eu/python3_history_and_philosophy.php
+
+I'll be reading more along with the more advanced Python Cookbook. Complete:
+
+__EU Tutorial__
+* The Origins of Python
+* Starting with Python: The Interactive Shell
+* Executing a Script
+* Indentation
+* Data Types and Variables
+* Operators
+
+
+__05-16-2019__
+
+# Python Cookbook 1.3
+
+``` markdown
+'''
+Problem: You want to keep a limited history of the last few items seen during iteration or during some other kind of processing.
+'''
+import random
+
+n = input("Enter the number of iterations: \n")
 n = int(n)
 
-if n == 0:
-    f = ['1']
-else:    
-    for i in range(1,n+1):
-        factorial = factorial*i
-        f.append(str(factorial))
-    
-    
-print(",".join(f)) 
-```
+running_list = []
 
-I chose to not use the factorial function and only briefly looked at the code when I found it. The tutorial I'm following must be using Python 2 as their solution code won't run on Jupitor and I gave up debugging. It returns the factorial but not a single line comma delimited sequence per the instructions.
+for i in range(n):
+    running_list.append(random.randint(0,1000))
+
+*_, t1, t2, t3 = running_list
+
+list_3 = [t1,t2,t3]
+print(running_list)
+print(list_3)
+```
 
 
 __05-15-2019__
@@ -134,115 +243,62 @@ text = string.getString()
 input_string.printString(text)
 ```
 
-__05-16-2019__
+__05-14-2019__
 
-# Python Cookbook 1.3
+# Python Exercise 1 / 100
 
-``` markdown
-'''
-Problem: You want to keep a limited history of the last few items seen during iteration or during some other kind of processing.
-'''
-import random
+```markdown
+#Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
+#between 2000 and 3200 (both included).
+#The numbers obtained should be printed in a comma-separated sequence on a single line.
 
-n = input("Enter the number of iterations: \n")
+s = []
+
+for i in range(2000, 3201):
+    if i%7 == 0 and i%5 != 0:
+        s.append(i)
+    
+print(s)
+    
+```
+
+# Python Exercise 2 / 100
+
+```markdown
+#Write a program which can compute the factorial of a given numbers.
+#The results should be printed in a comma-separated sequence on a single line.
+#Suppose the following input is supplied to the program:
+# !8 -> 40320
+
+n = 0
+factorial = 1
+f = []
+
+n = input("Enter a number to apply the factorial \n")
 n = int(n)
 
-running_list = []
-
-for i in range(n):
-    running_list.append(random.randint(0,1000))
-
-*_, t1, t2, t3 = running_list
-
-list_3 = [t1,t2,t3]
-print(running_list)
-print(list_3)
-```
-
-
-__05-17-2019__
-Found a new python 3 course that is pretty thorough and well written. It also has great tips for existing programmers making the transition to python.
-
-https://www.python-course.eu/python3_history_and_philosophy.php
-
-I'll be reading more along with the more advanced Python Cookbook. Complete:
-
-__EU Tutorial__
-* The Origins of Python
-* Starting with Python: The Interactive Shell
-* Executing a Script
-* Indentation
-* Data Types and Variables
-* Operators
-
-
-__05-19-2019__
-# EX 6/100
-
-``` markdown
-
-'''
-Question: Write a program that calculates and prints the value according to the given formula:
-
-Q = Square root of [(2 * C * D)/H] 
-
-Following are the fixed values of C and H:
-C is 50. H is 30. D is the variable whose values should be input to your program in a comma-separated sequence.
-EX 100,150,180  -> Output:   18,22,24'''
-
-import math
-
-C = 50 
-H = 30
-result = []
-
-# Gets a series of numbers from user
-print("\n---------------------------\n" +  "Q = SQRT[(2 * C * D)/H]\n" + "C =" + str(C) + "\n" + "H =" + str(H) + "\n---------------------------\n")
-
-# 1sr reads string input
-# 2nd splits the string input by ","  
-# 3rd maps string to int, saves to list 
-values = map(int, input("Enter numbers seperated by commas:\nD = ").split(","))
-
-# different way to map NOT USED
-# values =[x for x in input("Enter a Value").split(',')]
-
-# Calculations
-for D in values:
-    result.append(math.sqrt(2*C*D/H))    
+if n == 0:
+    f = ['1']
+else:    
+    for i in range(1,n+1):
+        factorial = factorial*i
+        f.append(str(factorial))
     
-#prints answer after converting to str
-print('Q = ' + str(result) + "\n\n The End\n")
+    
+print(",".join(f)) 
 ```
 
+I chose to not use the factorial function and only briefly looked at the code when I found it. The tutorial I'm following must be using Python 2 as their solution code won't run on Jupitor and I gave up debugging. It returns the factorial but not a single line comma delimited sequence per the instructions.
 
-# EX 7 /100
 
-``` markdown
-'''
-'''
-Question: Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i*j. Note: i=0,1.., X-1; j=0,1,¡­Y-1.
 
-EX:  Inputs: 3,5 -> Output: [0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
-'''
 
-# User input for row and columns of array
-row_N, col_N = map(int, input("Enter number of rows and columns seperated by comma: ").split(','))
 
-#Produces empty array rows=x col=y
-array = [[0 for col in range(col_N)]for row in range(row_N)]
 
-for row in range(row_N):
-  for col in range(col_N): 
-    array[row][col] = row*col 
 
-print(array) 
-'''
 
-```
 
-__EU Tutorial__
-* Sequential Data Types: Lists and Strings
+
 
 
 
