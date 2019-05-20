@@ -112,6 +112,14 @@ print('Q = ' + str(result) + "\n\n The End\n")
 ```
 
 
+``` markdown
+import datetime from datetime
+
+help() # returns details about module / documentation
+
+dir(datetime) #details about objects, classes, methods, 
+```
+
 # EX 7 /100
 
 ``` markdown
