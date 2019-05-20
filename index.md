@@ -32,11 +32,14 @@ __RW__
 #readability of large numbers
 x = 100_000_000  #instead of x = 100000000
 
-#Accesing index and value in list
+Accesing index and value in list
+``` markdown
 for i, item in enumerate(L)  #instead of creating
 	L[i] = result
+```
 
-#interrelated list unpacking
+Interrelated list unpacking
+``` markdown
 names = ['Peter Parker']   #stops on the shortest list
 heroes = ['Spiderman']   
 universes = ['Marvel']  
@@ -44,26 +47,30 @@ universes = ['Marvel']
 #zip creates a single tuple of 3 strings
 for name, hero, universe in zip(names, heroes, universes)  
 
+print(f'{name} is actually {hero} from {universe}')
+```
+Output: "Peter Parker is actually Spiderman from Marvel"
 
-	print(f'{name} is actually {hero} from {universe}'
 
-"Peter Parker is actually Spiderman from Marvel"
-
-#unpacking variable length and throw away data list/tuples
+Unpacking variable length and throw away data list/tuples
+```markdown
 a, _, *c, d = [1,2,3,4,5,]
 
-# '_' throws away 2
+#'_' throws away 2
 
 print(c) # c = 3,4 
+```
 
-#Adding/retrieving attributes dynamically (value is variable)
-
+Adding/retrieving attributes dynamically (value is variable)
+```markdown
 class Person():
 	pass
 
 person = Person()
 first_key = 'first'
 first_val = 'Corey'
+```
+
 
 __05-19-2019__
 # EX 6/100
