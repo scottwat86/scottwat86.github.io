@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=C-gEQdGVXbk&t=814s
 
 # RW
 
-__(1) Assigning value with ternary conditional
+__(1) Assigning value with ternary conditional__
 ``` markdown
 condition = True
 
@@ -37,23 +37,23 @@ x = 1 if condition else 0
 
 ```
 
-__(2) readability of large numbers
+__(2) readability of large numbers__
 x = 100_000_000  #instead of x = 100000000
 
-__(3) Accesing index and value in list
+__(3) Accesing index and value in list__
 ``` markdown
 for i, item in enumerate(L)  #instead of creating
 	L[i] = result
 ```
 
-__(4) Context Manager (eg openning/closing files/databases -> managing resources)
+__(4) Context Manager (eg openning/closing files/databases -> managing resources)__
 ``` markdown
 with open('test.txt', 'r') as f:
 	file_contents = f.read()
 print(file_contents)	
 ```
 
-__(5) Enumerate() -> returns index and value
+__(5) Enumerate() -> returns index and value__
 ```markdown
 names = ['Corey', 'Scott,' 'Brian']
 
@@ -62,7 +62,7 @@ for index, name in enumerate(names):
 
 ```
 
-__(6) Interrelated list unpacking ->  Zip()
+__(6) Interrelated list unpacking ->  Zip()__
 ``` markdown
 names = ['Peter Parker']   #stops on the shortest list
 heroes = ['Spiderman']   
@@ -76,7 +76,7 @@ print(f'{name} is actually {hero} from {universe}')
 Output: "Peter Parker is actually Spiderman from Marvel"
 
 
-Unpacking variable length and throw away data list/tuples
+__(7) Unpacking variable length and throw away data list/tuples__
 ```markdown
 a, _, *c, d = [1,2,3,4,5,]
 
@@ -85,7 +85,7 @@ a, _, *c, d = [1,2,3,4,5,]
 print(c) # c = 3,4 
 ```
 
-Adding/retrieving attributes dynamically (value is variable)
+__(8) Adding/retrieving attributes dynamically (value is variable)__
 ```markdown
 class Person():
 	pass
@@ -93,6 +93,33 @@ class Person():
 person = Person()
 first_key = 'first'
 first_val = 'Corey'
+
+setattr(person, first_key, first_val) 
+first = getattr(person, first_key, first_val)
+
+print(first) 
+
+#		key	value	key 	value	
+person_info = {'first':'Corey','last':'Schafer'}
+for key, value in person_info.items():
+	setattr(person,key,value)
+
+print(person.first)
+print(person.last)
+
+for key in person_info.keys():
+	print(key)
+# prints Corey \n Schafer
+```
+
+
+__(9) Sensitive info -> enter your password__
+```markdown
+from getpass import getpass
+
+usr = input('Username:')
+pw = getpass('Password:')
+
 ```
 
 
