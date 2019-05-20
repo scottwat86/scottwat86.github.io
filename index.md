@@ -167,6 +167,7 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 
 I'll be reading more along with the more advanced Python Cookbook. Complete:
 
+__EU Tutorial__
 * The Origins of Python
 * Starting with Python: The Interactive Shell
 * Executing a Script
@@ -239,6 +240,9 @@ print(array)
 '''
 
 ```
+
+__EU Tutorial__
+* Sequential Data Types: Lists and Strings
 
 
 
