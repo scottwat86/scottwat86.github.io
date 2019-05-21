@@ -124,6 +124,12 @@ pw = getpass('Password:')
 
 ```
 
+__EU Tutorial__
+*List Manipulations
+*Shallow and Deep Copy
+*Dictionaries
+
+
 
 __05-19-2019__
 # EX 6/100
