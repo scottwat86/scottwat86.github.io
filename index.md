@@ -65,9 +65,9 @@ print(f'{total:,}')   # Formats input with ','
 
 
 __(3) Context Manager (eg openning/closing files/databases -> managing resources)__
-``` markdown
-#import os
-#os.getcwd() #shows the working dir for opening the file
+```markdown
+# import os
+# os.getcwd() #shows the working dir for opening the file
 
 with open('test.txt', 'r') as f:
 	file_contents = f.read()    #automatically closes file once completed the read
