@@ -4,28 +4,28 @@
 Hello world! My name is Scott and I grew up in California and Washington. I graduated in 2010 from University of Washington with a BS in Engineering. Although I had several experiences with technology in my youth, from building my first computer at age 10, to experimenting with Red Hat Linux command line, I never went pro. In my mid-career as a project manager I've decided to make the leap move into technology. This site is dedicated to my data science and programming journey. Lets learn some Python 3!
 
 # Background
-Red Hat Linux - 1 year (self taught)
-Unix/Linux System Admin - 3 month (CEU @ UW)
-Javascript - 3 month (self taught)
-Java - 3 month (TCC college course)
-MATLAB - 6 months (college course in FEM modeling of structual elements)
+Red Hat Linux - 1 year (self taught)  
+Unix/Linux System Admin - 3 month (CEU @ UW)  
+Javascript - 3 month (self taught)  
+Java - 3 month (TCC college course)  
+MATLAB - 6 months (college course in FEM modeling of structual elements)  
 
 
 "A journey of a thousand miles begins with a single step."  -Laozi
 
 
-# EU  Python Tutorial:
+# EU  Python Tutorial:  
 https://www.python-course.eu/python3_history_and_philosophy.php
 
-05-20-2019
+05-20-2019  
 * List Manipulations
 * Shallow and Deep Copy
 * Dictionaries
 
-05-19-2019
+05-19-2019  
 * Sequential Data Types: Lists and Strings
 
-05-17-2019
+05-17-2019  
 * The Origins of Python
 * Starting with Python: The Interactive Shell
 * Executing a Script
@@ -35,16 +35,15 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 
 
 
-# Python Exercises
-
-Thanks to Jeffrey Hu for the resource:
+# Python Exercises  
+Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 
 
 
 ## 05-20-2019
 
-10 Python tips and tricks:
+10 Python tips and tricks:  
 https://www.youtube.com/watch?v=C-gEQdGVXbk&t=814s
 
 # RW
