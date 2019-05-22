@@ -65,8 +65,9 @@ print(f'{total:,}')   # Formats input with ','
 
 __(3) Context Manager (eg openning/closing files/databases -> managing resources)__
 ```markdown
-# import os
-# os.getcwd() #shows the working dir for opening the file
+
+#import os
+#os.getcwd() #shows the working dir for opening the file
 
 with open('test.txt', 'r') as f:
 	file_contents = f.read()    #automatically closes file once completed the read
@@ -345,10 +346,11 @@ print(s)
 # Python Exercise 2 / 100
 
 ```markdown
+
 #Write a program which can compute the factorial of a given numbers.
 #The results should be printed in a comma-separated sequence on a single line.
 #Suppose the following input is supplied to the program:
-# !8 -> 40320
+#!8 -> 40320
 
 n = 0
 factorial = 1
