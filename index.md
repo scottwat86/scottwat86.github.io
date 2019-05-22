@@ -14,6 +14,13 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 "A journey of a thousand miles begins with a single step."  -Laozi
 
 
+EU Tutorial
+05-19-2019
+*List Manipulations
+*Shallow and Deep Copy
+*Dictionaries
+
+
 # Python Exercises
 
 Thanks to Jeffrey Hu for the resource:
@@ -34,35 +41,47 @@ __(1) Assigning value with ternary conditional__
 condition = True
 
 x = 1 if condition else 0
-
 ```
+
 
 __(2) readability of large numbers__
 ```markdown
 x = 100_000_000  #instead of x = 100000000
+print(f'{total:,}')   # Formats input with ','
 ```
 
-__(3) Accesing index and value in list__
-``` markdown
-for i, item in enumerate(L)  #instead of creating
-	L[i] = result
-```
 
-__(4) Context Manager (eg openning/closing files/databases -> managing resources)__
+__(3) Context Manager (eg openning/closing files/databases -> managing resources)__
 ``` markdown
+#import os
+#os.getcwd() #shows the working dir for opening the file
+
 with open('test.txt', 'r') as f:
-	file_contents = f.read()
-print(file_contents)	
+	file_contents = f.read()    #automatically closes file once completed the read
+
+print(file_contents)
 ```
 
-__(5) Enumerate() -> returns index and value__
+
+__(4) Enumerate() -> adds a counting var to iterable  __
 ```markdown
-names = ['Corey', 'Scott,' 'Brian']
+names = ['Corey', 'Scott', 'Brian']
+
+for index, name in enumerate(names, start=1):  # starts at index=1
+	print(index, name) #returns index and value
+```
+
+
+__(5) Accesing index and value in two lists__
+``` markdown
+names = ['Peter Parker', 'Clark Kent', 'Wade Wilson', 'Bruce Wayne']
+heroes = ['Spiderman', 'Superman', 'Deadpool', 'Batman']
 
 for index, name in enumerate(names):
-	print(index,name)
-
+	hero = heroes[index]
+	print(f'{name} is actually {hero}')   #pulls corresponding values with index from each list
 ```
+
 
 __(6) Interrelated list unpacking ->  Zip()__
 ``` markdown
@@ -71,9 +90,8 @@ heroes = ['Spiderman']
 universes = ['Marvel']  
 
 #zip creates a single tuple of 3 strings
-for name, hero, universe in zip(names, heroes, universes)  
-
-print(f'{name} is actually {hero} from {universe}')
+for name, hero, universe in zip(names, heroes, universes):  
+	print(f'{name} is actually {hero} from {universe}')
 ```
 Output: "Peter Parker is actually Spiderman from Marvel"
 
@@ -90,28 +108,29 @@ print(c) # c = 3,4
 __(8) Adding/retrieving attributes dynamically (value is variable)__
 ```markdown
 class Person():
-	pass
+	# name = 'Jack'
+	pass 	# As long as no arg in class use 'pass'
 
 person = Person()
-first_key = 'first'
-first_val = 'Corey'
+first_key = 'name'   # attribute name
+first_val = 'Corey'  # attribute 
 
 setattr(person, first_key, first_val) 
 first = getattr(person, first_key, first_val)
 
 print(first) 
 
-#		key	value	key 	value	
-person_info = {'first':'Corey','last':'Schafer'}
-for key, value in person_info.items():
+#              key       value
+person_info = {'height': 70,   'weight': 175}
+for key, value in person_info.items():   #items() returns index, value of dict
 	setattr(person,key,value)
 
-print(person.first)
-print(person.last)
+print(person.height)  #returns height value in inch
+print(person.weight)
 
-for key in person_info.keys():
-	print(key)
-# prints Corey \n Schafer
+delattr(person,'height') #deletes attr 'height'
+
+dir(person) # to list the methods and attributes on a class
 ```
 
 
@@ -120,15 +139,9 @@ __(9) Sensitive info -> enter your password__
 from getpass import getpass
 
 usr = input('Username:')
-pw = getpass('Password:')
+pw = getpass('Password:')  # password doesn't show up in terminal
 
 ```
-
-__EU Tutorial__
-*List Manipulations
-*Shallow and Deep Copy
-*Dictionaries
-
 
 
 __05-19-2019__
