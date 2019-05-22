@@ -17,6 +17,11 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 # EU  Python Tutorial:  
 https://www.python-course.eu/python3_history_and_philosophy.php
 
+
+05-21-2019  
+* Sets and Frozen Sets
+* An Extensive Example for Sets
+
 05-20-2019  
 * List Manipulations
 * Shallow and Deep Copy
