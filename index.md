@@ -14,11 +14,25 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 "A journey of a thousand miles begins with a single step."  -Laozi
 
 
-EU Tutorial
+# EU  Python Tutorial:
+https://www.python-course.eu/python3_history_and_philosophy.php
+
+05-20-2019
+* List Manipulations
+* Shallow and Deep Copy
+* Dictionaries
+
 05-19-2019
-*List Manipulations
-*Shallow and Deep Copy
-*Dictionaries
+* Sequential Data Types: Lists and Strings
+
+05-17-2019
+* The Origins of Python
+* Starting with Python: The Interactive Shell
+* Executing a Script
+* Indentation
+* Data Types and Variables
+* Operators
+
 
 
 # Python Exercises
@@ -27,11 +41,10 @@ Thanks to Jeffrey Hu for the resource:
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 
 
-----------------------------------
 
-__05-20-2019__
+## 05-20-2019
 
-10 Python tips and tricks
+10 Python tips and tricks:
 https://www.youtube.com/watch?v=C-gEQdGVXbk&t=814s
 
 # RW
@@ -63,7 +76,7 @@ print(file_contents)
 ```
 
 
-__(4) Enumerate() -> adds a counting var to iterable  __
+__(4) Enumerate() -> adds a counting var to iterable__
 ```markdown
 names = ['Corey', 'Scott', 'Brian']
 
@@ -141,12 +154,15 @@ from getpass import getpass
 usr = input('Username:')
 pw = getpass('Password:')  # password doesn't show up in terminal
 
+
+__Module Docs__
+help() # returns details about module / documentation
+
 ```
 
 
-__05-19-2019__
+## 05-19-2019
 # EX 6/100
-
 ``` markdown
 
 '''
@@ -184,14 +200,6 @@ print('Q = ' + str(result) + "\n\n The End\n")
 ```
 
 
-``` markdown
-import datetime from datetime
-
-help() # returns details about module / documentation
-
-dir(datetime) #details about objects, classes, methods, 
-```
-
 # EX 7 /100
 
 ``` markdown
@@ -213,32 +221,18 @@ for row in range(row_N):
     array[row][col] = row*col 
 
 print(array) 
-'''
-
 ```
 
-__EU Tutorial__
-* Sequential Data Types: Lists and Strings
 
-
-__05-17-2019__
+## 05-17-2019
 Found a new python 3 course that is pretty thorough and well written. It also has great tips for existing programmers making the transition to python.
 
 https://www.python-course.eu/python3_history_and_philosophy.php
 
 I'll be reading more along with the more advanced Python Cookbook. Complete:
 
-__EU Tutorial__
-* The Origins of Python
-* Starting with Python: The Interactive Shell
-* Executing a Script
-* Indentation
-* Data Types and Variables
-* Operators
 
-
-__05-16-2019__
-
+## 05-16-2019
 # Python Cookbook 1.3
 
 ``` markdown
@@ -263,7 +257,7 @@ print(list_3)
 ```
 
 
-__05-15-2019__
+## 05-15-2019
 
 # EX 3/100
 
@@ -330,7 +324,7 @@ text = string.getString()
 input_string.printString(text)
 ```
 
-__05-14-2019__
+## 05-14-2019
 
 # Python Exercise 1 / 100
 
