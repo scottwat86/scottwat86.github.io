@@ -17,6 +17,11 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 # EU  Python Tutorial:  
 https://www.python-course.eu/python3_history_and_philosophy.php
 
+05-22-2019
+* input via the keyboard
+* Conditional Statements
+* Loops, while Loop
+* For Loops
 
 05-21-2019  
 * Sets and Frozen Sets
@@ -44,6 +49,45 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 
+## 05-22-2019
+
+__Guessing Game While Loop__
+```markdown
+
+import random  #Guessing game
+
+number = random.randint(1,101)
+i=0
+guess = int(input("You have 4 tries. \nEnter a number between 0-100: "))
+while guess != number :
+    if guess < 0 or guess > 100:
+        guess = int(input("Number is outside of range. \nTry again: "))
+    i += 1
+    guess = int(input("That is not it. \nTry again: "))
+    if 3 == i:
+        print("Fail! \nYou guessed too many times!")
+        break
+else:
+    print('You got it. Congrats!')  # Doesn not execut if  break occurs
+    
+
+
+ingredients = ['ham', 'cheese', 'bacon', 'hamburger', 'mayo'] 
+yuck=0 
+
+for food in ingredients: #simple for loop with food on the brain
+    if food == 'mayo':
+        print(food + ". Yuck!")
+        yuck += 1
+        continue
+    elif yuck >3:
+        break
+        
+    print("Yum! " + food + ".")
+else:
+    print('Mayo is gross!')
+print("I'm full!")   
+```
 
 
 ## 05-20-2019
