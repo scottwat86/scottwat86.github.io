@@ -54,7 +54,9 @@ https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Pyt
 __Guessing Game While Loop__
 ```markdown
 
-import random  #Guessing game
+Simple guessing game
+
+import random  
 
 number = random.randint(1,101)
 i=0
@@ -71,6 +73,7 @@ else:
     print('You got it. Congrats!')  # Doesn not execut if  break occurs
     
 
+Simple for loop with food on the brain
 
 ingredients = ['ham', 'cheese', 'bacon', 'hamburger', 'mayo'] 
 yuck=0 
