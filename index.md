@@ -47,7 +47,7 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 
 # Python Exercises  
 Thanks to Jeffrey Hu for the resource:  
-https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
+https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
 
 ## 05-23-2019
 
@@ -63,8 +63,8 @@ __Visualizations__
 * seaborn		-statistical plots
 * bokeh			-interactive plots & web browsers for presentation
 
-https://python-graph-gallery.com/
-https://realpython.com/python-matplotlib-guide/
+https://python-graph-gallery.com/  
+https://realpython.com/python-matplotlib-guide/  
 
 
 __Machine Learning__
