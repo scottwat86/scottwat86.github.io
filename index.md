@@ -49,6 +49,34 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 
+## 05-23-2019
+
+Down the rabbit hole ... background research on the packages to learn down the line:
+
+__Arrays & Engineering Computation__
+* NumPy 		-Arrays and linear algebra
+* SciPy			-Various functions to operate on numpy arrays & scientific and engineering applications.
+
+__Visualizations__
+* Matplotlib		-general purpose & 
+* pandas		-quick plots
+* seaborn		-statistical plots
+* bokeh			-interactive plots & web browsers for presentation
+
+https://python-graph-gallery.com/
+https://realpython.com/python-matplotlib-guide/
+
+
+__Machine Learning__
+* scikit-learn		-classification, regression, clustering algorithms incl. support vector machines, random forests, 
+			 gradient boosting, k-means and DBSCAN
+
+Brought me back to my MATLAB days. Their are some great resources out there. 
+
+Data Camp Quick Ref -> Strongly considering picking up a subscription
+https://www.datacamp.com/community/data-science-cheatsheets
+
+
 ## 05-22-2019
 
 __Guessing Game While Loop__
