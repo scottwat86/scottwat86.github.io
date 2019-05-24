@@ -44,18 +44,33 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 * Operators
 
 
-
 # Python Exercises  
 Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
 
 ## 05-23-2019
 
+Joined Triage though it may take a while to find a pull request that I can troubleshoot confidently. At the minimum this site will get me exposed to real world programming issues. Its how I found Namba and optimization problems for SciPy.
+
+# performance testing code  -> didn't realize that Python was so inefficient compared to C++
+```markdown
+from datetime import datetime
+startTime = datetime.now()
+
+#do something 
+
+#Python 3: 
+print(datetime.now() - startTime)
+```
+
 Down the rabbit hole ... background research on the packages to learn down the line:
 
 __Arrays & Engineering Computation__
 * NumPy 		-Arrays and linear algebra
 * SciPy			-Various functions to operate on numpy arrays & scientific and engineering applications.
+
+__Optimization__
+* Namba			-Creates Just-in-time(JIT) machine code to speed up array/numerical calculatons similar to C/C++/FORTRAN
 
 __Visualizations__
 * Matplotlib		-general purpose & 
