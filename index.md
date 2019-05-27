@@ -48,6 +48,21 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
 
+
+## 05-27-2019
+Completed roughly __1hr of puzzles on__. Interesting puzzles that center around interpreting code rather than writing. Again great as a tool in the toolbox but probably not practical as a stand alone. The difference between writing and reading.
+https://app.finxter.com/learn/computer/science/
+
+Also read through first Chapter of Learning Python 3 the Hardway. I'm trying to track down where the examples are that aren't behind the paywall but the book doesn't seem to have that content. May just go back to 100 EX and deal with the python 2 -> python 3 issues.
+
+
+## 05-26-2019
+Completed EX1 - EX8 on Learning Python3 the hard way and then hit the paywall. Found a copy of the book for free but it doesn't seem to follow the same foremat as the website EX. The book is mainly text where the site is examples to transcribe. Not exactly the most problem solving focused methodology but I can see how process and good habits matter and practice makes perfect!
+https://learnpythonthehardway.org/python3/preface.html
+
+
+## SKIPPED 05-24-2019  ROAD TRIP
+
 ## 05-23-2019
 
 Joined Triage though it may take a while to find a pull request that I can troubleshoot confidently. At the minimum this site will get me exposed to real world programming issues. Its how I found Namba and optimization problems for SciPy.
