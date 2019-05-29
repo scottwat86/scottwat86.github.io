@@ -51,22 +51,22 @@ https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Pyt
 
 ## 05-28-2019
 Short night tonight. Need to catch of from the slacking weekend but have a day job deadline to finish.
-Exercises 12 - 15		-	Learning Python 3 the Hardway
+Exercises 12 - 15		-	Learning Python 3 the Hardway  
 
 
 ## 05-27-2019
 Completed roughly __1hr of puzzles on__. Interesting puzzles that center around interpreting code rather than writing. Again great as a tool in the toolbox but probably not practical as a stand alone. The difference between writing and reading.
 https://app.finxter.com/learn/computer/science/ 
 
-Chapters  1 - 4			-	Learning MORE Python 3 the Hardway
-Exercises 9 - 11		-	Learning Python 3 the Hardway
-
+Chapters  1 - 4			-	Learning MORE Python 3 the Hardway 
+Exercises 9 - 11		-	Learning Python 3 the Hardway 
+ 
 
 ## 05-26-2019
 Completed EX1 - EX8 on Learning Python3 the hard way and then hit the paywall. Found a copy of the book for free but it doesn't seem to follow the same foremat as the website EX. The book is mainly text where the site is examples to transcribe. Not exactly the most problem solving focused methodology but I can see how process and good habits matter and practice makes perfect!
 https://learnpythonthehardway.org/python3/preface.html  
 
-Exercises 1-8		-	Learning Python 3 the Hardway
+Exercises 1-8		-	Learning Python 3 the Hardway 
 
 ## SKIPPED 05-24-2019  ROAD TRIP
 
