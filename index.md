@@ -58,8 +58,8 @@ Exercises 12 - 15		-	Learning Python 3 the Hardway
 Completed roughly __1hr of puzzles on__. Interesting puzzles that center around interpreting code rather than writing. Again great as a tool in the toolbox but probably not practical as a stand alone. The difference between writing and reading.
 https://app.finxter.com/learn/computer/science/ 
 
-Chapters  1 - 4			-	Learning MORE Python 3 the Hardway 
-Exercises 9 - 11		-	Learning Python 3 the Hardway 
+Chapters  1 - 4			-	Learning MORE Python 3 the Hardway  
+Exercises 9 - 11		-	Learning Python 3 the Hardway  
  
 
 ## 05-26-2019
