@@ -51,6 +51,8 @@ https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Pyt
 ## 05-29-2019  
 Worked on refining my Atom enviroment and and ~2.5hr of Fixnter training.  
 Fixnter Rank: Experienced Intermediate  
+Exercises 16		-	Learning Python 3 the Hardway   
+
 
 ## 05-28-2019
 Short night tonight. Need to catch of from the slacking weekend but have a day job deadline to finish.  
