@@ -48,6 +48,9 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
 
+## 05-29-2019  
+Worked on refining my Atom enviroment and and ~2.5hr of Fixnter training.  
+Fixnter Rank: Experienced Intermediate  
 
 ## 05-28-2019
 Short night tonight. Need to catch of from the slacking weekend but have a day job deadline to finish.  
