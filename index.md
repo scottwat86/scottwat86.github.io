@@ -17,6 +17,10 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 # EU  Python Tutorial:  
 https://www.python-course.eu/python3_history_and_philosophy.php
 
+05-30-2019
+* For Loops
+
+
 05-22-2019
 * input via the keyboard
 * Conditional Statements
@@ -47,6 +51,12 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 # Python Exercises  
 Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
+
+## 05-30-2019  
+Quite frankly struggling keeping up on the 3HR/day ... 20HR/Week study regiment. First two weeks went smoothly so I guess I should've expected a bump in the road sooner or later. Hopefully life settles down between car trouble and work deadlines so that I can really focus.
+
+Exercises 17-18		-	Learning Python 3 the Hardway   
+EU Python Tutorial 	-	For Loops
 
 ## 05-29-2019  
 Worked on refining my Atom enviroment and and ~2.5hr of Fixnter training.  
