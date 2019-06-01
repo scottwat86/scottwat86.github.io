@@ -52,6 +52,12 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
 
+
+## 05-31-2019   
+About half way done with EX 22 which is a review of all the previous content. I'm making a pretty extensive review sheet with some other code tricks I've picked up elsewhere. Will be looking into start a project soon as I've almost got the basics down. 
+Exercises 16-22		-	Learning Python 3 the Hardway
+
+
 ## 05-30-2019  
 Quite frankly struggling keeping up on the 3HR/day ... 20HR/Week study regiment. First two weeks went smoothly so I guess I should've expected a bump in the road sooner or later. Hopefully life settles down between car trouble and work deadlines so that I can really focus.
 
