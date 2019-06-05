@@ -52,6 +52,14 @@ https://www.python-course.eu/python3_history_and_philosophy.php
 Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
 
+## Object Oriented Langauges (OOP)  
+* __Encasulation__	- Group related variables/function			- Reduces complexity & increases reusablility/portability  
+
+* __Abstraction__	- Simplifies interface by hidding the details		- Reduces complexity & isolates impact of changes  
+
+* __Inheritances__	- Similar object can use the same functions/var.	- Eliminates redundant code  
+
+* __Polymorpherism__	- Functions behaviour changes with the object/inputs	- Adds flexibility to functions  
 
 
 ## 06-04-2019
