@@ -14,11 +14,6 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 "A journey of a thousand miles begins with a single step."  -Laozi
 
 
-
-# Python Exercises  
-Thanks to Jeffrey Hu for the resource:  
-https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
-
 ## 06-05-2019
 EU  Python Tutorial:
 * Difference between interators und Iterables  
