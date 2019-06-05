@@ -53,6 +53,17 @@ Thanks to Jeffrey Hu for the resource:
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
 
 
+
+## 06-04-2019
+Worked through Sections 1.1 through 1.3 of Python Cookbook review what I read. This time I'm typing up, commenting and modifying the examples to better retain and remember. Also worked on Finxter for ~0.5hr.
+
+## 06-02-2019
+Setup repository for LPTHW exercises documented below. Learned to push them to Github using the git command. Worked on ~ 1hr of Finxter problems including researching and typing out the portions I didn't not understand.
+
+## 06-01-2019
+Finxter execersizes for ~ 1hr. 
+Exercises 23		-	Learning Python 3 the Hardway
+
 ## 05-31-2019   
 About half way done with EX 22 which is a review of all the previous content. I'm making a pretty extensive review sheet with some other code tricks I've picked up elsewhere. Will be looking into start a project soon as I've almost got the basics down. 
 Exercises 16-22		-	Learning Python 3 the Hardway
