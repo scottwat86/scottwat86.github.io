@@ -14,43 +14,16 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 "A journey of a thousand miles begins with a single step."  -Laozi
 
 
-# EU  Python Tutorial:  
-https://www.python-course.eu/python3_history_and_philosophy.php
-
-05-30-2019
-* For Loops
-
-
-05-22-2019
-* input via the keyboard
-* Conditional Statements
-* Loops, while Loop
-* For Loops
-
-05-21-2019  
-* Sets and Frozen Sets
-* An Extensive Example for Sets
-
-05-20-2019  
-* List Manipulations
-* Shallow and Deep Copy
-* Dictionaries
-
-05-19-2019  
-* Sequential Data Types: Lists and Strings
-
-05-17-2019  
-* The Origins of Python
-* Starting with Python: The Interactive Shell
-* Executing a Script
-* Indentation
-* Data Types and Variables
-* Operators
-
 
 # Python Exercises  
 Thanks to Jeffrey Hu for the resource:  
 https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt  
+
+## 06-05-2019
+EU  Python Tutorial:
+* Difference between interators und Iterables  
+* Output with Print  
+* Formatted output with string modulo and the format method   
 
 ## Object Oriented Langauges (OOP)  
 * __Encasulation__	- Group related variables/function			- Reduces complexity & increases reusablility/portability  
