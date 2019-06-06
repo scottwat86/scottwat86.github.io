@@ -15,7 +15,17 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 
 
 ## 06-05-2019
-EU  Python Tutorial:
+## Decorators:  
+Went down the rabbit hole on Python Decorators. Quite interesting but also complex. It will take me a while to be able to implemt these but got the idea of a function to modify another function with the best example. A Decorator to time the run time of any function. Cool beans!  
+
+## Programming Developmet Attitudes  
+Discusses DirectingAttitude vs EnablingAttitude. The funny thing is this paradigm shows up in many subjects Theoretical vs practical. Applied Math vs Math. Even True colors personalities Freedom Seeking Orange Rule Breakers vs Structured Seeking Gold Rule Followers.     
+
+
+## Automate the Boring Stuff with Python:   
+Worked through the first 5 video lessons. Will beginning reading up on the lessons latter.  
+
+## EU  Python Tutorial:  
 * Difference between interators und Iterables  
 * Output with Print  
 * Formatted output with string modulo and the format method   
