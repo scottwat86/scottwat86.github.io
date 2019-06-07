@@ -20,6 +20,7 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 * Data Warehouse Schemas: Star and Snowflake  
 * Database Schemas: Physical and Logical  
 * Microsoft SQL Server SSIS, SSAS, SSRS 
+* Enterprise or dimensional data model  
 
 ## Python Visualizer  
 Great way to visualize code step by step.
