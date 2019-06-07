@@ -19,7 +19,7 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 Went down the rabbit hole on Python Decorators. Quite interesting but also complex. It will take me a while to be able to implemt these but got the idea of a function to modify another function with the best example. A Decorator to time the run time of any function. Cool beans!  
 
 ## Programming Developmet Attitudes  
-Discusses DirectingAttitude vs EnablingAttitude. The funny thing is this paradigm shows up in many subjects Theoretical vs practical. Applied Math vs Math. Even True colors personalities Freedom Seeking Orange Rule Breakers vs Structured Seeking Gold Rule Followers.     
+Martin Fowler discusses DirectingAttitude vs EnablingAttitude in programming. The funny thing is this paradigm shows up in many subjects. Theoretical vs practical. Applied Math vs Math. Even True Colors Personalities -> Freedom-Seeking (Orange) Rule Breakers vs Structured-Seeking (Gold) Rule Enforcers. Either way these pesonality tendency exist because they both have value. Sometimes we need order and other times we just need to get stuff done whatever way its flowing. Torwards the end Martin Fowler points out that in large part it can simply come down to viewpoint. Is the glass half full or half empty... Its just a glass of water. 
 
 
 ## Automate the Boring Stuff with Python:   
