@@ -14,7 +14,7 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 ## "A journey of a thousand miles begins with a single step."  -Laozi  
 
 
-## 06-06-2019
+# 06-06-2019
 ## Database Review
 * Database vs Data Warehouse  
 * Data Warehouse Schemas: Star and Snowflake  
@@ -36,7 +36,7 @@ https://www.geeksforgeeks.org/software-design-patterns/
 * Added repo using git command lines  
 
 
-## 06-05-2019
+# 06-05-2019
 ## Decorators:  
 Went down the rabbit hole on Python Decorators. Quite interesting but also complex. It will take me a while to be able to implemt these but got the idea of a function to modify another function with the best example. A Decorator to time the run time of any function. Cool beans!  
 
@@ -62,39 +62,39 @@ Martin Fowler discusses DirectingAttitude vs EnablingAttitude in programming. Th
 * __Polymorpherism__	- Functions behaviour changes with the object/inputs	- Adds flexibility to functions  
 
 
-## 06-04-2019
+# 06-04-2019
 Worked through Sections 1.1 through 1.3 of Python Cookbook review what I read. This time I'm typing up, commenting and modifying the examples to better retain and remember. Also worked on Finxter for ~0.5hr.
 
-## 06-02-2019
+# 06-02-2019
 Setup repository for LPTHW and uploaded exercises documented below. Learned to push them to Github using the git command. Worked on ~ 1hr of Finxter problems including researching and typing out the portions I didn't not understand.
 
-## 06-01-2019
+# 06-01-2019
 Finxter execersizes for ~ 1hr.   
 Exercises 23		-	Learning Python 3 the Hardway  
 
-## 05-31-2019   
+# 05-31-2019   
 About half way done with EX 22 which is a review of all the previous content. I'm making a pretty extensive review sheet with some other code tricks I've picked up elsewhere. Will be looking into start a project soon as I've almost got the basics down. 
 Exercises 16-22		-	Learning Python 3 the Hardway
 
 
-## 05-30-2019  
+# 05-30-2019  
 Quite frankly struggling keeping up on the 3HR/day ... 20HR/Week study regiment. First two weeks went smoothly so I guess I should've expected a bump in the road sooner or later. Hopefully life settles down between car trouble and work deadlines so that I can really focus.
 
 Exercises 17-18		-	Learning Python 3 the Hardway   
 EU Python Tutorial 	-	For Loops
 
-## 05-29-2019  
+# 05-29-2019  
 Worked on refining my Atom enviroment and and ~2.5hr of Fixnter training.  
 Fixnter Rank: Experienced Intermediate  
 Exercises 16		-	Learning Python 3 the Hardway   
 
 
-## 05-28-2019
+# 05-28-2019
 Short night tonight. Need to catch of from the slacking weekend but have a day job deadline to finish.  
 Exercises 12 - 15		-	Learning Python 3 the Hardway   
 
 
-## 05-27-2019
+# 05-27-2019
 Completed roughly __1hr of puzzles on__. Interesting puzzles that center around interpreting code rather than writing. Again great as a tool in the toolbox but probably not practical as a stand alone. The difference between writing and reading.
 https://app.finxter.com/learn/computer/science/ 
 
@@ -102,15 +102,15 @@ Chapters  1 - 4			-	Learning MORE Python 3 the Hardway
 Exercises 9 - 11		-	Learning Python 3 the Hardway  
  
 
-## 05-26-2019
+# 05-26-2019
 Completed EX1 - EX8 on Learning Python3 the hard way and then hit the paywall. Found a copy of the book for free but it doesn't seem to follow the same foremat as the website EX. The book is mainly text where the site is examples to transcribe. Not exactly the most problem solving focused methodology but I can see how process and good habits matter and practice makes perfect!
 https://learnpythonthehardway.org/python3/preface.html  
 
 Exercises 1-8		-	Learning Python 3 the Hardway 
 
-## SKIPPED 05-24-2019  ROAD TRIP
+# SKIPPED 05-24-2019  ROAD TRIP
 
-## 05-23-2019
+# 05-23-2019
 Joined Triage though it may take a while to find a pull request that I can troubleshoot confidently. At the minimum this site will get me exposed to real world programming issues. Its how I found Namba and optimization problems for SciPy.
 
 Down the rabbit hole ... background research on the packages to learn down the line:
