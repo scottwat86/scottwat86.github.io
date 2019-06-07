@@ -91,17 +91,6 @@ Exercises 1-8		-	Learning Python 3 the Hardway
 ## 05-23-2019
 Joined Triage though it may take a while to find a pull request that I can troubleshoot confidently. At the minimum this site will get me exposed to real world programming issues. Its how I found Namba and optimization problems for SciPy.
 
-# performance testing code  -> didn't realize that Python was so inefficient compared to C++
-```markdown
-from datetime import datetime
-startTime = datetime.now()
-
-#do something 
-
-#Python 3: 
-print(datetime.now() - startTime)
-```
-
 Down the rabbit hole ... background research on the packages to learn down the line:
 
 __Arrays & Engineering Computation__
