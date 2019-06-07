@@ -11,7 +11,29 @@ Java - 3 month (TCC college course)
 MATLAB - 6 months (college course in FEM modeling of structual elements)  
 
 
-"A journey of a thousand miles begins with a single step."  -Laozi
+## "A journey of a thousand miles begins with a single step."  -Laozi  
+
+
+## 06-06-2019
+## Database Review
+* Database vs Data Warehouse  
+* Data Warehouse Schemas: Star and Snowflake  
+* Database Schemas: Physical and Logical  
+* Microsoft SQL Server SSIS, SSAS, SSRS 
+
+## Python Visualizer  
+Great way to visualize code step by step.
+http://pythontutor.com/visualize.html#mode=edit
+
+## Software Design Patterns  
+Found design patterns. I will ne making an effort to learn these to better understand highier level program structuring.
+https://www.geeksforgeeks.org/software-design-patterns/
+
+
+## Automate the Boring Stuff with Python:   
+* Lesson Video 6-10  
+* Read Chapters 0  
+* Added repo using git command lines  
 
 
 ## 06-05-2019
@@ -23,7 +45,7 @@ Martin Fowler discusses DirectingAttitude vs EnablingAttitude in programming. Th
 
 
 ## Automate the Boring Stuff with Python:   
-Worked through the first 5 video lessons. Will beginning reading up on the lessons latter.  
+* Lesson Video 1-5  
 
 ## EU  Python Tutorial:  
 * Difference between interators und Iterables  
