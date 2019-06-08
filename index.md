@@ -14,6 +14,10 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 ## "A journey of a thousand miles begins with a single step."  -Laozi  
 
 
+# 06-07-2019  
+Exercises 24-26		-	Learning Python 3 the Hardway  
+Still need to finish up 26. 
+
 # 06-06-2019
 ## Database Review
 * Database vs Data Warehouse  
@@ -30,7 +34,6 @@ http://pythontutor.com/visualize.html#mode=edit
 ## Software Design Patterns  
 Found design patterns. I will ne making an effort to learn these to better understand highier level program structuring.
 https://www.geeksforgeeks.org/software-design-patterns/
-
 
 ## Automate the Boring Stuff with Python:   
 * Lesson Video 6-10  
