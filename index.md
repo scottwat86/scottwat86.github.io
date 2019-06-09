@@ -31,6 +31,11 @@ __Statement__
 * Require variables to be set up outside before use  
 * E.g. assignmens, conditional branch, loops, classes, import, def, try, except, pass, del  
 
+## Automate the Boring Stuff with Python:   
+* Ch 2-3  
+* Practice Problem 1 - Collatz Function with error handling
+* Updated repo
+
 # 06-08-2019
 ## Automate the Boring Stuff with Python:   
 * Lesson Video 11-15
