@@ -13,6 +13,30 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 
 ## "A journey of a thousand miles begins with a single step."  -Laozi  
 
+# 06-09-2019
+## Expressions vs Statments  
+__Expresions__  
+* Include values and functions that are combined and interpreted to form new values  
+* Purpose is to create a value and have side effects  
+* Small expr. can be combined / composed into large expr. (Composable -> self-contained & statelss)  
+* Pure expr. / subexpr. do not have implied order of execution / dependencies  
+* Leads to simpler code than statements   
+
+__Statement__  
+* Are standalone exceution and never return values    
+* Purpose is to have side effects  
+* Are not supported in a pure functional language  
+* Have implied order of execution and depend on prior statements for evaluation  
+* Are less adaptable as the dependencies prevent code portability  
+* Require variables to be set up outside before use  
+* E.g. assignmens, conditional branch, loops, classes, import, def, try, except, pass, del  
+
+# 06-08-2019
+## Automate the Boring Stuff with Python:   
+* Lesson Video 11-15
+* Ch 1
+* Updated repo
+
 
 # 06-07-2019  
 Exercises 24-26		-	Learning Python 3 the Hardway  
