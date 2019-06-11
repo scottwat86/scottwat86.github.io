@@ -23,7 +23,7 @@ P(A|B) = P(A)P(B|A) / P(B)
 
 Diachronic ->  Through Time   
 (Foundation of Inference Problems)  
-(Posterior = Priors * Likihood) / Normalizing Constant  
+Posterior = (Priors * Likihood) / Normalizing Constant  
 P(H|E) = P(H) P(E|H) / P(E)  
 
 	  
