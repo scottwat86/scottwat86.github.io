@@ -14,8 +14,8 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 ## "A journey of a thousand miles begins with a single step."  -Laozi  
 
 # 06-10-2019
-## Reseacher PIPIWIN32 and COM objects ->DispatchEx Excel
-Today worked towards using win32com to automatocally update all the external data references in a list of an Excel files. I found several examples of this already completed and I'm still have problems getting the files to update and not present dialog boxes to stop the automation. I will continue to research the COM object applications and get this script to work generically.
+## Automating Excel with PIPIWIN32 and COM objects
+Today I researched PYPIWIN32 and the good old COM Objects to automatocally update all the external data references in a list of an Excel files. This will save some time monthly at my current work. I found several examples as this is apparently a really old application. I ran into a hiccup trying to prevent the dialog boxes from showing up and holding up the automation. I was able to save the file without a dialog but still am having trouble ignoring the data load dialog. I will work on it a little more tomorrow.
 
 
 # 06-09-2019
