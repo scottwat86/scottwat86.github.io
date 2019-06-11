@@ -14,8 +14,8 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 ## "A journey of a thousand miles begins with a single step."  -Laozi  
 
 # 06-10-2019
-## pypiwin32 module ->DispatchEx Excel
-Instead of doing the same old same old reading/Exercise, today I decided to have a little impact. The goal was to use win32com to update all the external data references in an Excel. At my current work we need to do this once a month to ~ 20-30 files and it can be a pain in the ass.  I'm not quite finished as the connections instance seems to be stripping the .txt from the external file so I'm researching still to get it to work. End the end I hope to have this run automatically to save some manual excel updating.
+## Reseacher PIPIWIN32 and COM objects ->DispatchEx Excel
+Today worked towards using win32com to automatocally update all the external data references in a list of an Excel files. I found several examples of this already completed and I'm still have problems getting the files to update and not present dialog boxes to stop the automation. I will continue to research the COM object applications and get this script to work generically.
 
 
 # 06-09-2019
