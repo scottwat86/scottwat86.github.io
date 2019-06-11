@@ -17,11 +17,12 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 ## Automating Excel with PIPIWIN32 and COM objects
 Today I researched PYPIWIN32 and the good old COM Objects to automatocally update all the external data references in a list of an Excel files. This will save some time monthly at my current work. I found several examples as this is apparently a really old application. I ran into a hiccup trying to prevent the dialog boxes from showing up and holding up the automation. I was able to save the file without a dialog but still am having trouble ignoring the data load dialog. I will work on it a little more tomorrow.  
 
-## Bayes's Theorem Review
+## Bayes's Theorem Review  
 Prob of A given B = (Prob A * Prob B given A) / Prob B  
 P(A|B) = P(A)P(B|A) / P(B)      
 
-Diachronic ->  Through Time 
+Diachronic ->  Through Time   
+(Foundation of Inference Problems)  
 (Posterior = Priors * Likihood) / Normalizing Constant  
 P(H|E) = P(H) P(E|H) / P(E)  
 
