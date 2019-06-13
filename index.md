@@ -13,6 +13,16 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 
 ## "A journey of a thousand miles begins with a single step."  -Laozi  
 
+# 06-12-2019  
+## Automate the Boring Stuff with Python:   
+* Ch 4 - Lists  completed
+* Practice Problem 2 - Comma Code & Grid Printing
+* Updated Repo
+
+# 06-11-2019  
+## Automate the Boring Stuff with Python:   
+* Ch 4 - Lists   ~75% complete  
+
 # 06-10-2019
 ## Automating Excel with PIPIWIN32 and COM objects
 Today I researched PYPIWIN32 and the good old COM Objects to automatocally update all the external data references in a list of an Excel files. This will save some time monthly at my current work. I found several examples as this is apparently a really old application. I ran into a hiccup trying to prevent the dialog boxes from showing up and holding up the automation. I was able to save the file without a dialog but still am having trouble ignoring the data load dialog. I will work on it a little more tomorrow.  
