@@ -13,6 +13,15 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 
 ## "A journey of a thousand miles begins with a single step."  -Laozi  
 
+# 06-13-2019  
+## Automate the Boring Stuff with Python:   
+* Ch 5 - Dictionaries 
+* Practice Problem 3 - Fantasy Game Inventory
+* Updated Repo
+
+## Research  
+* GoLang application  
+
 # 06-12-2019  
 ## Automate the Boring Stuff with Python:   
 * Ch 4 - Lists  completed
