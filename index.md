@@ -3,6 +3,17 @@
 # BIO
 Hello world! My name is Scott and I grew up in California and Washington. I graduated in 2010 from University of Washington with a BS in Engineering. Although I had several experiences with technology in my youth, from building my first computer at age 10, to experimenting with Red Hat Linux command line, I never went pro. In my mid-career as a project manager I've decided to make the leap move into technology. This site is dedicated to my data science and programming journey. Lets learn some Python 3!
 
+# Course & Books Progress:  
+* Automate the Boring Stuff in Python 3 by Al Sweigart  
+* Learn Python 3 the Hard Way by Zed Shaw  
+
+# Pending  
+* Learn MORE Python 3 the Hard Way by Zed Shaw  
+* Think Python 2nd Ed. By Allen Downey 
+* Intro Data Science By Allen Downey 
+
+
+
 # Background
 Red Hat Linux - 1 year (self taught)  
 Unix/Linux System Admin - 3 month (CEU @ UW)  
