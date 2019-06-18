@@ -24,6 +24,28 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 
 ## "A journey of a thousand miles begins with a single step."  -Laozi  
 
+# 06-14-2019
+## Automate the Boring Stuff with Python:   
+* Ch 7 - Pattern Matching with Regular Expressions
+
+Reviewed Crash Course Python Basics Cheat Sheet.  
+
+## MIT OpenCourseWare
+## 6.0001 Introduction to Computer Science and Programming
+* 10. Understanding Program Efficiency, Part 1 
+* 11. Understanding Program Efficiency, Part 2
+* 12. Searching and Sorting 
+Need to revisit this course from the beginning.
+
+# 06-16-2019  
+## Automate the Boring Stuff with Python:   
+* Ch 6 - Dictionaries (Coninued)
+* Practice Project 6
+
+# 06-14-2019  
+## Automate the Boring Stuff with Python:   
+* Ch 6 - Dictionaries (Start)
+
 # 06-13-2019  
 ## Automate the Boring Stuff with Python:   
 * Ch 5 - Dictionaries 
