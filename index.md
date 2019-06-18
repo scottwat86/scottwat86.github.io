@@ -8,10 +8,20 @@ Hello world! My name is Scott and I grew up in California and Washington. I grad
 * Learn Python 3 the Hard Way by Zed Shaw  
 
 # Pending  
-* Learn MORE Python 3 the Hard Way by Zed Shaw  
 * Think Python 2nd Ed. By Allen Downey 
 * Intro Data Science By Allen Downey 
+* Learn MORE Python 3 the Hard Way by Zed Shaw  
 
+## MIT OpenCourseWare  
+* 6.0001 - Introduction to Computer Science and Programming  
+* 6.0002 - Introduction to Computational Thinking and Data Science (Fall 2016)  
+* 6.034 - Artificial Intelligence
+* 6.005 - Software Construction (Spring 2016)  
+* 6.006 - Introduction to Algorithms (Fall 2011)
+* 6.046J - Design and Analysis of Algorithms (Spring 2015)  
+* 6.S095 - Programming for the Puzzled (January IAP 2018)
+* 6.851 - Advanced Data Structures (Spring 2012)
+https://ocw.mit.edu/courses/most-visited-courses/
 
 
 # Background
