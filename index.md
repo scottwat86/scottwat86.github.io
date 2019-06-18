@@ -11,6 +11,7 @@ Hello world! My name is Scott and I grew up in California and Washington. I grad
 * Think Python 2nd Ed. By Allen Downey 
 * Intro Data Science By Allen Downey 
 * Learn MORE Python 3 the Hard Way by Zed Shaw  
+* Google Machine Learning Crash Course - https://developers.google.com/machine-learning/crash-course/  
 
 ## MIT OpenCourseWare  
 * 6.0001 - Introduction to Computer Science and Programming  
