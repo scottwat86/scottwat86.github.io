@@ -35,6 +35,17 @@ MATLAB - 6 months (college course in FEM modeling of structual elements)
 
 ## "A journey of a thousand miles begins with a single step."  -Laozi  
 
+
+# 06-19-2019  
+## MIT OpenCourseWare   
+## 6.0001 Introduction to Computer Science and Programming  
+* VIDEO - Lecture 4: Decomposition, Abstraction, and Functions 
+* VIDEO - Lecture XXXXXXXXXXX
+* READING - XXXXXXXXX
+* Lecture Exercises 1-3 
+* Practice Problems - XXXXXX
+
+
 # 06-18-2019  
 ## MIT OpenCourseWare   
 ## 6.0001 Introduction to Computer Science and Programming  
